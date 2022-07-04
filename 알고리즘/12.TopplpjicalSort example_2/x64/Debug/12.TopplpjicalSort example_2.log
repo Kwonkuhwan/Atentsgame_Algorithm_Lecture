@@ -1,2 +1,10 @@
-﻿  TopologicalSort.c
+﻿  Graph.c
+D:\개인공부\Atentsgame_Algorithm_Lecture\알고리즘\12.TopplpjicalSort example_2\Graph.c(112,10): warning C4477: 'printf' : 서식 문자열 '%c'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'ElementType'입니다.
+D:\개인공부\Atentsgame_Algorithm_Lecture\알고리즘\12.TopplpjicalSort example_2\Graph.c(112,10): warning C4313: 'printf': 서식 문자열의 '%c'이(가) 인수 1('ElementType' 형식)과(와) 충돌합니다.
+D:\개인공부\Atentsgame_Algorithm_Lecture\알고리즘\12.TopplpjicalSort example_2\Graph.c(123,11): warning C4477: 'printf' : 서식 문자열 '%c'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'ElementType'입니다.
+D:\개인공부\Atentsgame_Algorithm_Lecture\알고리즘\12.TopplpjicalSort example_2\Graph.c(123,11): warning C4313: 'printf': 서식 문자열의 '%c'이(가) 인수 1('ElementType' 형식)과(와) 충돌합니다.
+  LinkedList.c
+  Test_TopologicalSort.c
+  TopologicalSort.c
+  코드를 생성하고 있습니다...
   12.TopplpjicalSort example_2.vcxproj -> D:\개인공부\Atentsgame_Algorithm_Lecture\알고리즘\x64\Debug\12.TopplpjicalSort example_2.exe

@@ -1,0 +1,8 @@
+﻿  KarpRabin.c
+D:\개인공부\Atentsgame_Algorithm_Lecture\알고리즘\16.KarpRabin example\KarpRabin.c(9,1): warning C4244: '초기화 중': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\개인공부\Atentsgame_Algorithm_Lecture\알고리즘\16.KarpRabin example\KarpRabin.c(41,54): warning C4244: '+=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Test_KarpRabin.c
+D:\개인공부\Atentsgame_Algorithm_Lecture\알고리즘\16.KarpRabin example\Test_KarpRabin.c(26,31): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\개인공부\Atentsgame_Algorithm_Lecture\알고리즘\16.KarpRabin example\Test_KarpRabin.c(36,46): warning C4267: '함수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  코드를 생성하고 있습니다...
+  16.KarpRabin example.vcxproj -> D:\개인공부\Atentsgame_Algorithm_Lecture\알고리즘\x64\Debug\16.KarpRabin example.exe

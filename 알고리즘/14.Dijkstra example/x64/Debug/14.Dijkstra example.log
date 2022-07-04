@@ -1,0 +1,3 @@
+﻿  ShortestPath.c
+D:\개인공부\Atentsgame_Algorithm_Lecture\알고리즘\14.Dijkstra example\ShortestPath.c(11,44): warning C4020: 'malloc': 실제 매개 변수가 너무 많습니다.
+  14.Dijkstra example.vcxproj -> D:\개인공부\Atentsgame_Algorithm_Lecture\알고리즘\x64\Debug\14.Dijkstra example.exe

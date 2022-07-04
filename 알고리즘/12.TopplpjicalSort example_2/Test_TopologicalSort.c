@@ -8,42 +8,49 @@ int main(void)
 
 	Graph* graph = CreateGraph();
 
-	Vertex* Vertex1 = CreateVertex("C언어");
-	Vertex* Vertex2 = CreateVertex("C++");
-	Vertex* Vertex3 = CreateVertex("C#");
-	Vertex* Vertex4 = CreateVertex("Python");
-	Vertex* Vertex5 = CreateVertex("JAVA");
-	Vertex* Vertex6 = CreateVertex("OpenCV");
-	Vertex* Vertex7 = CreateVertex("Unity");
-	Vertex* Vertex8 = CreateVertex("Tenserflow");
-	Vertex* Vertex9 = CreateVertex("Pytorch");
-	Vertex* Vertex10 = CreateVertex("JS");
+	Vertex* C = CreateVertex("C언어");
+	Vertex* CPP = CreateVertex("C++");
+	Vertex*	CS = CreateVertex("C#");
+	Vertex* P = CreateVertex("Python");
+	Vertex* J = CreateVertex("JAVA");
+	Vertex* OCV = CreateVertex("OpenCV");
+	Vertex* TD = CreateVertex("3D 그래픽");
+	Vertex* Uni = CreateVertex("Unity");
+	Vertex* Unreal = CreateVertex("언리얼엔진");
+	Vertex* Tensor = CreateVertex("Tensorflow");
+	Vertex* Pytorch = CreateVertex("Pytorch");
+	Vertex* Js = CreateVertex("JS");
 
 
-	AddVertex(graph, Vertex1);
-	AddVertex(graph, Vertex2);
-	AddVertex(graph, Vertex3);
-	AddVertex(graph, Vertex4);
-	AddVertex(graph, Vertex5);
-	AddVertex(graph, Vertex6);
-	AddVertex(graph, Vertex7);
-	AddVertex(graph, Vertex8);
-	AddVertex(graph, Vertex9);
-	AddVertex(graph, Vertex10);
+	AddVertex(graph, C);
+	AddVertex(graph, CPP);
+	AddVertex(graph, CS);
+	AddVertex(graph, P);
+	AddVertex(graph, J);
+	AddVertex(graph, OCV);
+	AddVertex(graph, TD);
+	AddVertex(graph, Uni);
+	AddVertex(graph, Unreal);
+	AddVertex(graph, Tensor);
+	AddVertex(graph, Pytorch);
+	AddVertex(graph, Js);
 
-	AddEdge(Vertex1, CreateEdge(Vertex1, Vertex2, 0));
-	AddEdge(Vertex1, CreateEdge(Vertex1, Vertex3, 0));
-	AddEdge(Vertex1, CreateEdge(Vertex1, Vertex4, 0));
-	AddEdge(Vertex1, CreateEdge(Vertex1, Vertex5, 0));
+	AddEdge(C, CreateEdge(C, J, 0));
+	AddEdge(C, CreateEdge(C, P, 0));
+	AddEdge(C, CreateEdge(C, CS, 0));
+	AddEdge(C, CreateEdge(C, CPP, 0));
 
-	AddEdge(Vertex2, CreateEdge(Vertex2, Vertex6, 0));
+	AddEdge(CPP, CreateEdge(CPP, OCV, 0));
 
-	AddEdge(Vertex3, CreateEdge(Vertex3, Vertex7, 0));
+	AddEdge(CS, CreateEdge(CS, TD, 0));
 
-	AddEdge(Vertex4, CreateEdge(Vertex4, Vertex8, 0));
-	AddEdge(Vertex4, CreateEdge(Vertex4, Vertex9, 0));
+	AddEdge(TD, CreateEdge(TD, Uni, 0));
+	AddEdge(TD, CreateEdge(TD, Unreal, 0));
 
-	AddEdge(Vertex5, CreateEdge(Vertex5, Vertex10, 0));
+	AddEdge(P, CreateEdge(P, Tensor, 0));
+	AddEdge(P, CreateEdge(P, Pytorch, 0));
+
+	AddEdge(J, CreateEdge(J, Js, 0));
 
 	TopologicalSort(graph->Vertices, &SortedList);
 

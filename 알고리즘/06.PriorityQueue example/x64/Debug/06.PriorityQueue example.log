@@ -1,2 +1,5 @@
 ﻿  PriorityQueue.c
+  Test_PriorityQueue.c
+D:\개인공부\Atentsgame_Algorithm_Lecture\알고리즘\06.PriorityQueue example\Test_PriorityQueue.c(5,9): warning C4477: 'printf' : 서식 문자열 '%s'에 'char *' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'void *'입니다.
+  코드를 생성하고 있습니다...
   06.PriorityQueue example.vcxproj -> D:\개인공부\Atentsgame_Algorithm_Lecture\알고리즘\x64\Debug\06.PriorityQueue example.exe
